@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreya Senthilnathan — Undergraduate student and aspiring postgraduate</title>
+  <meta name="description" content="Portfolio of Shreya Senthilnathan: academic journey, research interests, and postgraduate plans.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ==========================================================================
+     NAVBAR — identical on all 12 pages. If you change a link here,
+     change it in the other 11 files too.
+     ========================================================================== -->
+<nav class="nav" aria-label="Main">
+  <div class="container nav__inner">
+    <a class="nav__brand" href="index.html">S<span>.</span>Shreya</a>
+
+    <button class="nav__toggle" type="button" id="navToggle"
+            aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+      <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+
+    <div class="nav__links" id="navLinks" data-open="false">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="academic-journey.html">Journey</a>
+      <a class="nav__link" href="skills.html">Skills</a>
+      <a class="nav__link" href="experience.html">Experience</a>
+      <a class="nav__link" href="contact.html">Contact</a>
+
+      <div class="nav__more">
+        <button class="nav__more-btn" type="button" id="moreBtn"
+                aria-expanded="false" aria-controls="moreMenu">
+          More
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="nav__dropdown" id="moreMenu" data-open="false">
+          <a href="achievements.html">Achievements</a>
+          <a href="courses.html">Courses</a>
+          <a href="publications.html">Publications</a>
+          <a href="research.html">Research</a>
+          <a href="pg-aspirations.html">PG aspirations</a>
+          <a href="personality.html">Personality</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ======================================================================
+       HERO
+       ====================================================================== -->
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Portfolio</p>
+      <h1 class="hero__name">Shreya Senthilnathan</h1>
+
+      <!-- The roles below rotate. Edit the list in the script at the bottom. -->
+      <p class="hero__roles"><span id="typewriter"></span><span class="caret" aria-hidden="true"></span></p>
+      <p class="visually-hidden">Undergraduate student, aspiring postgraduate, research enthusiast, global learner, future leader.</p>
+
+      <p class="hero__bio">An undergraduate student with a clear vision &mdash; to take my academic
+        journey abroad and build a career that bridges curiosity, discipline, and meaningful impact.</p>
+
+      <div class="btn-row hero__actions">
+        <a class="btn btn--primary" href="academic-journey.html">View academic journey</a>
+        <a class="btn btn--outline" href="contact.html">Get in touch</a>
+      </div>
+
+      <hr class="rule">
+
+      <div class="social-row">
+        <span class="tip-wrap">
+          <!-- ADD YOUR CONTENT HERE — replace the three links below -->
+          <a class="icon-btn" href="https://github.com/" aria-label="Visit GitHub profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.51-.34c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+          </a>
+          <span class="tip" role="tooltip">Visit GitHub profile</span>
+        </span>
+
+        <span class="tip-wrap">
+          <a class="icon-btn" href="https://linkedin.com/in/" aria-label="Visit LinkedIn profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.5c0-1.31-.02-3-1.9-3-1.9 0-2.2 1.43-2.2 2.9V21H9z"/></svg>
+          </a>
+          <span class="tip" role="tooltip">Visit LinkedIn profile</span>
+        </span>
+
+        <span class="tip-wrap">
+          <a class="icon-btn" href="mailto:hello@example.com" aria-label="Send an email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>
+          </a>
+          <span class="tip" role="tooltip">Send an email</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       QUICK LINKS — one card per page
+       ====================================================================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head reveal" data-num="01">
+        <p class="eyebrow">Explore</p>
+        <h2>Everything, in one place</h2>
+        <p class="lede">Eleven pages covering where I have studied, what I have built, and where I am headed next.</p>
+      </div>
+
+      <div class="grid-4 reveal">
+        <a class="quicklink" href="about.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-6 8-6s8 2 8 6"/></svg></span>
+          <span class="quicklink__name">About</span>
+          <span class="quicklink__desc">Background, values, and what I do when I am not studying.</span>
+        </a>
+
+        <a class="quicklink" href="academic-journey.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8 12 3l10 5-10 5z"/><path d="M6 10.5V16c0 1.6 2.7 3 6 3s6-1.4 6-3v-5.5"/></svg></span>
+          <span class="quicklink__name">Academic journey</span>
+          <span class="quicklink__desc">School to university, year by year.</span>
+        </a>
+
+        <a class="quicklink" href="skills.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 3v3.5M12 17.5V21M3 12h3.5M17.5 12H21"/></svg></span>
+          <span class="quicklink__name">Skills</span>
+          <span class="quicklink__desc">Research, technical, and the human ones.</span>
+        </a>
+
+        <a class="quicklink" href="experience.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></span>
+          <span class="quicklink__name">Experience</span>
+          <span class="quicklink__desc">Leadership, academic work, and volunteering.</span>
+        </a>
+
+        <a class="quicklink" href="achievements.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="m8.5 13-1.5 8 5-3 5 3-1.5-8"/></svg></span>
+          <span class="quicklink__name">Achievements</span>
+          <span class="quicklink__desc">Awards, recognitions, and competition results.</span>
+        </a>
+
+        <a class="quicklink" href="courses.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h7v15H4z"/><path d="M13 5h7v15h-7z"/></svg></span>
+          <span class="quicklink__name">Courses</span>
+          <span class="quicklink__desc">Certifications and self-directed learning.</span>
+        </a>
+
+        <a class="quicklink" href="publications.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7z"/><path d="M14 3v4h4M9 12h6M9 16h4"/></svg></span>
+          <span class="quicklink__name">Publications</span>
+          <span class="quicklink__desc">Papers, essays, and writing in progress.</span>
+        </a>
+
+        <a class="quicklink" href="research.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.4-4.4"/></svg></span>
+          <span class="quicklink__name">Research</span>
+          <span class="quicklink__desc">The questions I keep coming back to.</span>
+        </a>
+
+        <a class="quicklink" href="pg-aspirations.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 2.5 15.4 0 18-2.5-2.6-2.5-15.4 0-18z"/></svg></span>
+          <span class="quicklink__name">PG aspirations</span>
+          <span class="quicklink__desc">Target programmes, countries, and timeline.</span>
+        </a>
+
+        <a class="quicklink" href="personality.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 7.5v9L12 21l8-4.5v-9z"/><path d="M12 12v9M12 12 4 7.5M12 12l8-4.5"/></svg></span>
+          <span class="quicklink__name">Personality</span>
+          <span class="quicklink__desc">How I work, by the assessments.</span>
+        </a>
+
+        <a class="quicklink" href="contact.html">
+          <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span>
+          <span class="quicklink__name">Contact</span>
+          <span class="quicklink__desc">Email, socials, and a short form.</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       ABOUT PREVIEW
+       ====================================================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="split split--sidebar-left">
+
+        <div class="reveal">
+          <!-- ADD YOUR CONTENT HERE — replace the div below with
+               <img src="images/shreya.jpg" alt="Shreya Senthilnathan"> -->
+          <div class="photo">
+            <span class="photo__hint">Add a 4:5 portrait here</span>
+          </div>
+
+          <div class="grid-2 mt-6">
+            <!-- ADD YOUR CONTENT HERE — change data-count and the label -->
+            <div class="stat"><div class="stat__num" data-count="3">0</div><div class="stat__label">Years of undergraduate study</div></div>
+            <div class="stat"><div class="stat__num" data-count="12">0</div><div class="stat__label">Certifications completed</div></div>
+            <div class="stat"><div class="stat__num" data-count="5">0</div><div class="stat__label">Leadership roles held</div></div>
+            <div class="stat"><div class="stat__num" data-count="4">0</div><div class="stat__label">Research areas explored</div></div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="section-head" data-num="02">
+            <p class="eyebrow">About</p>
+            <h2>A short version</h2>
+          </div>
+
+          <!-- ADD YOUR CONTENT HERE -->
+          <p>I am in the final stretch of my undergraduate degree, and most of what I have
+            chosen to do outside the syllabus has pointed the same direction: toward
+            research, and toward studying abroad.</p>
+          <p class="mt-4">That means coursework I picked rather than was assigned, a reading
+            list that keeps outgrowing the semester, and a fair amount of time spent working
+            out which questions are actually worth a thesis. The rest of this site is the detail.</p>
+
+          <div class="btn-row mt-8">
+            <a class="btn btn--primary" href="about.html">Read the full story</a>
+            <a class="btn btn--outline" href="pg-aspirations.html">See my PG plans</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ==========================================================================
+     FOOTER — identical on all 12 pages.
+     ========================================================================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">S<span>.</span>Shreya</div>
+        <p class="footer__tagline">Undergraduate student preparing for postgraduate study abroad.</p>
+      </div>
+      <div>
+        <h2 class="footer__heading">Pages</h2>
+        <ul class="footer__list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="academic-journey.html">Academic journey</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="courses.html">Courses</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__heading">More</h2>
+        <ul class="footer__list">
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="pg-aspirations.html">PG aspirations</a></li>
+          <li><a href="personality.html">Personality</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Shreya Senthilnathan</span>
+      <span>Built with HTML, CSS and a little JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" type="button" id="toTop" data-visible="false" aria-label="Scroll back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>
+
+<script>
+(function () {
+  'use strict';
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- Mobile menu ---- */
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navToggle.setAttribute('aria-label', open ? 'Open menu' : 'Close menu');
+    navLinks.setAttribute('data-open', String(!open));
+  });
+
+  /* ---- "More" dropdown ---- */
+  var moreBtn = document.getElementById('moreBtn');
+  var moreMenu = document.getElementById('moreMenu');
+
+  function closeMore() {
+    moreBtn.setAttribute('aria-expanded', 'false');
+    moreMenu.setAttribute('data-open', 'false');
+  }
+
+  moreBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var open = moreBtn.getAttribute('aria-expanded') === 'true';
+    moreBtn.setAttribute('aria-expanded', String(!open));
+    moreMenu.setAttribute('data-open', String(!open));
+  });
+
+  /* ---- Clicking anywhere else closes the dropdown ---- */
+  document.addEventListener('click', function (e) {
+    if (!moreMenu.contains(e.target) && !moreBtn.contains(e.target)) closeMore();
+  });
+
+  /* ---- Escape closes, and focus goes back to the control that opened it ---- */
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    if (moreMenu.getAttribute('data-open') === 'true') {
+      closeMore();
+      moreBtn.focus();
+    } else if (navLinks.getAttribute('data-open') === 'true') {
+      navToggle.click();
+      navToggle.focus();
+    }
+  });
+
+  /* ---- Mark the current page in the nav ---- */
+  var here = window.location.pathname.split('/').pop() || 'index.html';
+  var links = document.querySelectorAll('.nav__links a');
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].getAttribute('href') === here) {
+      links[i].classList.add('is-active');
+      if (moreMenu.contains(links[i])) moreBtn.classList.add('is-active');
+    }
+  }
+
+  /* ---- Scroll to top ---- */
+  var toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', function () {
+    toTop.setAttribute('data-visible', String(window.scrollY > 500));
+  }, { passive: true });
+
+  toTop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+  });
+
+  /* ---- Reveal sections as they scroll in ---- */
+  var revealables = document.querySelectorAll('.reveal');
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    for (var r = 0; r < revealables.length; r++) revealables[r].classList.add('visible');
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        io.unobserve(entry.target);
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    for (var j = 0; j < revealables.length; j++) io.observe(revealables[j]);
+  }
+
+  /* ======================================================================
+     PAGE-SPECIFIC: home
+     ====================================================================== */
+
+  /* ---- Rotating role line. Edit this list to change the roles. ---- */
+  var roles = [
+    'Undergraduate Student',
+    'Aspiring Postgraduate',
+    'Research Enthusiast',
+    'Global Learner',
+    'Future Leader'
+  ];
+
+  var out = document.getElementById('typewriter');
+
+  if (reduceMotion) {
+    out.textContent = roles[0];
+  } else {
+    var roleIndex = 0, charIndex = 0, erasing = false;
+    (function type() {
+      var word = roles[roleIndex];
+      out.textContent = word.slice(0, charIndex);
+
+      if (!erasing && charIndex === word.length) {
+        erasing = true;
+        setTimeout(type, 1600);
+        return;
+      }
+      if (erasing && charIndex === 0) {
+        erasing = false;
+        roleIndex = (roleIndex + 1) % roles.length;
+      }
+      charIndex += erasing ? -1 : 1;
+      setTimeout(type, erasing ? 40 : 75);
+    })();
+  }
+
+  /* ---- Stat counters count up once, when they first appear ---- */
+  var stats = document.querySelectorAll('[data-count]');
+
+  function countUp(el) {
+    var target = parseInt(el.getAttribute('data-count'), 10) || 0;
+    if (reduceMotion) { el.textContent = String(target); return; }
+    var start = performance.now();
+    (function step(now) {
+      var progress = Math.min((now - start) / 900, 1);
+      el.textContent = String(Math.round(target * progress));
+      if (progress < 1) requestAnimationFrame(step);
+    })(start);
+  }
+
+  if ('IntersectionObserver' in window) {
+    var statObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        countUp(entry.target);
+        statObserver.unobserve(entry.target);
+      });
+    }, { threshold: 0.5 });
+    for (var s = 0; s < stats.length; s++) statObserver.observe(stats[s]);
+  } else {
+    for (var t = 0; t < stats.length; t++) countUp(stats[t]);
+  }
+})();
+</script>
+
+</body>
+</html>
